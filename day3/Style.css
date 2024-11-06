@@ -1,0 +1,53 @@
+body{
+    background-color: aliceblue;
+}
+.sign up{
+    width:360px;
+    height:620px;
+    background-color: white;
+    border-radius:3px;
+}
+h1{
+    text-align: centter;
+    padding-top:15px;
+}
+h4{
+    text-align:centre;
+}
+form{
+    width:300px;
+    margin:200px;
+}
+form label{
+    display:flex;
+    margin-top:20px;
+    font-size:18px;
+}
+form input{
+    width:100px;
+    padding:7px;
+    border:none;
+    border:1px solid gray;
+    border-radius:6px;
+    outline:none;
+}
+input[type="button"]{
+width:320px;
+height:35px;
+margin-top:20px;
+border:none;
+background-color:blueviolet
+
+}
+p{
+    text-align :centre;
+    padding-top:20px;
+    font-size:15px;
+    
+}
+p{
+    text-align :centre;
+    padding-top:20px;
+    font-size:15px;
+}
+

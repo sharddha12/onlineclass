@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: aliceblue;
+}
+.hr{
+    border:1px rgb(249,247,247);
+}
+.maindiv{
+    background-color:blue
+    padding-bottom:30px;
+    text-align: center;
+    display:flex;
+}
+.maindiv button:hover{
+    background-color: chartreuse;
+    cursor:pointer;
+    color:black;
+    animation-duration: 1s;
+    transition:2s;
+    transform:scalex(1.0);
+    box-shadow:2px 2px 2px 2px rgb(234,232,)
+
+}
+.leftdiv,.rightdiv,.middlediv{
+    background-color:black;
+    color:white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.wrappeddiv{
+    background-color: aliceblue;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    justify-content: space-around;
+}
+

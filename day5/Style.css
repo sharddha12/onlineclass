@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:"Roboto",sans-serif;
+    font-weight:500;
+    font-style:normal;
+}
+.topbar{
+    background-color: rgb(4, 4, 75);
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+}
+.topbar i{
+    margin-right: 40px;
+    font-size:20px;
+}
+.topbar i:hover{
+    cursor:pointer;
+    color: orange;
+    transition:5s;
+    height:10px;
+}
+.navbar{
+    background-color: red;
+    display:flex;
+    
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+}
+.logo img{
+width:100px;
+height:100px;
+margin-left: 10px;
+}
+.thuloimage
+{
+    width:100%;
+    height:100%;
+}
+.donation button {
+    color:white;
+    background-color: rgb(235, 155, 36);
+    border-style: none;
+    padding:10px;
+    margin-right: 10px;
+    transition: 4s;
+}
+    
+    .donation button:hover{
+        background-color: blue;
+        cursor: pointer;
+        transition: 3s;
+
+}
+.navlink ul{
+    list-style: none;
+    display:flex;
+}
+.navlink a{
+    text-decoration: none;
+}
+.navbar li{
+    padding: 10px;
+}
+.navbar a:hover{
+color:rgb(13, 0, 255);
+cursor: pointer;
+}
+
+
+.leftdiv{
+    margin-left:40px;
+}
+.rightdiv h3{
+    background-color: rgb(190, 12, 12);
+    
+}
+.rightdiv button{
+    background-color: rgb(235, 155, 36);
+    border-style: none;
+    display:flex;
+    
+}
+    
+    .rightdiv button:hover{
+        background-color: blue;
+        cursor: pointer;
+        transition: 3s;
+        
+
+}
+.rightdiv p .h2{
+    background-color: #29b51f;
+    justify-content: center;
+}
+    
+    .divthulodiv2{
+        width:100px;
+        height:100px;
+    }
+
