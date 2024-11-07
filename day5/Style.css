@@ -27,7 +27,7 @@ body{
     height:10px;
 }
 .navbar{
-    background-color: red;
+    background-color: rgb(233, 220, 220);
     display:flex;
     
     justify-content: space-between;
@@ -89,20 +89,88 @@ cursor: pointer;
     
 }
     
-    .rightdiv button:hover{
-        background-color: blue;
-        cursor: pointer;
-        transition: 3s;
-        
-
-}
-.rightdiv p .h2{
-    background-color: #29b51f;
-    justify-content: center;
-}
     
-    .divthulodiv2{
-        width:100px;
-        height:100px;
-    }
+.container{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:40px;
+    grid-template-columns: 1fr 1fr;
+}
+.left-container img{
+    width:400px;
+    height:400px;
+}
+.right-container{
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+
+.right-container h4{
+font-size: 20px;
+font-weight: 700;
+color: rgb(71, 61, 61);
+}
+.right-container h3{
+    color:blue;
+    font-size: 40px;
+    margin: 10px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.right-container p{
+    margin-top: 30px;
+    color: rgb(12, 12, 12);
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.viewmorediv{
+    background-color: white;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.viewmorediv button{
+    padding:12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:120px;
+    color:white;
+    background-color: rgb(255, 119, 0);
+    border:none;
+    
+    
+}
+.right-container p{
+    margin-top: 40px;
+    
+}
+.viewmorediv button:hover{
+    background-color: white;
+    color: rgb(255, 119, 0);
+    border: solid 2px rgb(255, 119, 0);
+    transition:2s;
+}
+
+
+
+
+
+
+    
+    
+    
+
 
